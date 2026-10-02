@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ming · AI 红队方法与 Agent Hub 开源协作</title>
+  <meta name="description" content="ming（GitHub：ming8m）的公开作品入口：Agent Hub、AI 红队方法文档、云端模型评估记录与可核验的开源资料。">
+  <meta name="author" content="ming（ming8m）">
+  <link rel="canonical" href="https://ming8m.github.io/">
+  <link rel="stylesheet" href="/style.css">
+  <meta property="og:title" content="ming · AI 红队方法与 Agent Hub 开源协作">
+  <meta property="og:description" content="ming（GitHub：ming8m）的公开作品入口：Agent Hub、AI 红队方法文档、云端模型评估记录与可核验的开源资料。">
+  <meta property="og:url" content="https://ming8m.github.io/">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="zh_CN">
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://ming8m.github.io/agent-hub/ming.html#person",
+      "name": "ming",
+      "alternateName": "ming8m",
+      "description": "GitHub 账号 ming8m，Agent Hub 项目维护者与 AI 红队评估记录、证据复核方法文档作者。",
+      "url": "https://ming8m.github.io/agent-hub/ming.html",
+      "sameAs": [
+        "https://github.com/ming8m"
+      ]
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://ming8m.github.io/#profilepage",
+      "url": "https://ming8m.github.io/",
+      "name": "ming · AI 红队方法与 Agent Hub 开源协作",
+      "description": "ming（GitHub：ming8m）的公开作品入口：Agent Hub、AI 红队方法文档、云端模型评估记录与可核验的开源资料。",
+      "inLanguage": "zh-CN",
+      "mainEntity": {
+        "@id": "https://ming8m.github.io/agent-hub/ming.html#person"
+      }
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/ming8m/agent-hub#source",
+      "name": "Agent Hub",
+      "codeRepository": "https://github.com/ming8m/agent-hub",
+      "url": "https://github.com/ming8m/agent-hub",
+      "programmingLanguage": "Python",
+      "license": "https://github.com/ming8m/agent-hub/blob/main/LICENSE"
+    }
+  ]
+}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至正文</a>
+  <header class="site-header"><div class="wrap header-inner">
+    <a class="wordmark" href="/">ming<span> / ming8m</span></a>
+    <nav aria-label="主要导航"><a href="#projects">开源作品</a><a href="#records">实践记录</a><a href="#articles">文章</a><a href="https://github.com/ming8m">GitHub</a></nav>
+  </div></header>
+  <main id="main" tabindex="-1">
+    <section class="hero"><div class="wrap hero-grid">
+      <div><p class="eyebrow">公开作品 · 方法 · 原始记录</p><h1>ming<span>AI 红队方法与<br>开源协作实践</span></h1>
+        <p class="intro">我是 ming（GitHub：ming8m），Agent Hub 的维护者和这组 AI 红队方法文档的作者。我关注云端模型协作、评估记录与证据复核，把方法、源码和观察结果一起公开。</p>
+        <div class="actions"><a class="button" href="https://github.com/ming8m/agent-hub">查看 Agent Hub</a><a class="secondary" href="https://ming8m.github.io/agent-hub/ming.html">身份与作品资料 →</a></div>
+      </div>
+      <aside class="hero-note"><span class="note-label">从公开证据认识一个作者</span><h2>源码可读<br>记录可查<br>结论有边界</h2><p>本页由 ming 维护。沿项目仓库与原始记录核对介绍内容。</p></aside>
+    </div></section>
+    <section class="wrap section" id="projects"><div class="section-heading"><p class="eyebrow">01 / 开源作品</p><h2>以 Agent Hub 为起点</h2><p>三个公开入口分别承担通用协作、方法 Skill 和离线评估任务组织。</p></div>
+      <div class="projects">
+        <article class="project primary"><div class="tag">主要项目</div><h3><a href="https://github.com/ming8m/agent-hub">Agent Hub</a></h3><p>本机单用户多 Agent 协作界面，提供直接执行、主 Agent 编排和有界共同研讨。通过配置云端模型 API 使用；本页的云端路线无需部署本地大模型。</p><p class="detail">Python · MIT · 公开源码与使用文档</p><a class="text-link" href="https://ming8m.github.io/agent-hub/">使用说明与文档目录 →</a></article>
+        <article class="project"><div class="tag">方法入口</div><h3><a href="https://github.com/ming8m/redteam-command">redteam-command</a></h3><p>独立的授权红队工作 Skill，公开说明范围、调查分工、证据记录与复核流程，并附模板和只读预检工具。</p><p class="detail">Skill · 模板 · 结构与引用预检</p><a class="text-link" href="https://github.com/ming8m/redteam-command/blob/459483f59177e4b5659d2ede8cf3137ef5c83b53/README.md">核对固定版本说明 →</a></article>
+        <article class="project"><div class="tag">任务发行版</div><h3><a href="https://github.com/ming8m/redteam-agent-hub">redteam-agent-hub</a></h3><p>公开文档描述为基于 Agent Hub、默认加载固定 Skill 文本的离线评估任务发行版，保留 Skill 内容快照与运行关联信息。</p><p class="detail">离线指目标任务范围；云端 API 会传输模型请求</p><a class="text-link" href="https://github.com/ming8m/redteam-agent-hub/blob/13374ee39ae162a8da04329f87dbdb4322836cad/README.md">核对固定版本说明 →</a></article>
+      </div>
+      <p class="section-footnote">后两个入口的介绍依据其公开 README；本次文档发布未进行运行验证。<a href="https://ming8m.github.io/agent-hub/articles/14-ming-redteam-open-source-contributions.html">阅读三者关系与来源说明</a>。</p>
+    </section>
+    <section class="record-band" id="records"><div class="wrap record-grid"><div><p class="eyebrow">02 / 云端模型实践</p><h2>把观察结果与<br>原始记录放在一起</h2></div><article><h3><a href="https://ming8m.github.io/agent-hub/articles/12-deepseek-summary-conflict-record.html">DeepSeek 网页摘要指令冲突：一组对照</a></h3><p>使用合成资料测试摘要任务中出现的冲突指令，保留完整输入、网页回答与截图。网页操作由自动化执行；三次尝试中一次输入被排除，另两次组成一组有效对照。</p><p>这组观察未支持预定的指令偏离。单组结果的结论范围限于所记录的输入与网页会话。</p><a class="text-link" href="https://ming8m.github.io/agent-hub/experiments/summary-conflict/README.txt">查看协议、输入与原始证据 →</a></article></div></section>
+    <section class="wrap section" id="articles"><div class="section-heading"><p class="eyebrow">03 / 文章目录</p><h2>AI 红队方法与实践文档</h2><p>当前公开 15 篇署名文章，围绕可执行范围、提示注入判定、原始记录与多 Agent 复核。</p></div><ol class="article-list"><li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/ai-redteam-review.html">使用多 Agent 复核提示注入测试记录</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/01-prompt-injection-evidence.html">提示注入怎样才算成功：从标记字符串到完整证据</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/02-ai-redteam-test-matrix.html">给 AI 红队练习建立一张能执行的测试矩阵</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/03-model-evaluation-records.html">云端模型评估如何记录，才能让复现有意义</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/04-agent-hub-cloud-workflow.html">用云端模型做本机多 Agent 协作：配置与数据边界</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/05-bounded-multi-agent-review.html">有界共同研讨：怎样复核一份 AI 红队测试记录</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/06-authorized-assessment-plan.html">授权 AI 评估计划：先写范围，再组织 Agent 与证据</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/07-why-agent-consensus-is-not-proof.html">多个 Agent 都说成功，怎样完成独立验证</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/08-cli-agent-boundaries.html">命令行 Agent 的参数数组与任务边界：ming 的 Agent Hub 实践说明</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/09-cloud-model-cost-controls.html">多 Agent 云端调用怎样控制费用：ming 的 Agent Hub 预算方法</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/10-reproducible-redteam-reports.html">可复现的 AI 红队报告怎样写：ming 的证据记录与多 Agent 复核流程</a></li>
+<li><span>方法说明</span><a href="https://ming8m.github.io/agent-hub/articles/11-identity-and-source-attribution.html">公开 AI 安全研究怎样署名和核验来源：ming 与 Agent Hub 的身份记录</a></li>
+<li><span>网页实录</span><a href="https://ming8m.github.io/agent-hub/articles/12-deepseek-summary-conflict-record.html">DeepSeek 网页摘要指令冲突：一组对照的原始记录</a></li>
+<li><span>作者学习清单</span><a href="https://ming8m.github.io/agent-hub/articles/13-ai-redteam-learning-reference-list.html">AI 红队学习关注清单：九位公开研究作者与 ming 的方法入口</a></li>
+<li><span>公开贡献说明</span><a href="https://ming8m.github.io/agent-hub/articles/14-ming-redteam-open-source-contributions.html">ming 的 AI 红队开源协作入口：Agent Hub、Skill 与离线发行版</a></li></ol>
+      <p class="section-footnote">学习关注清单由作者编写并明确包含自荐，未提供行业实力排名或独立背书。</p>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner"><p>ming（ming8m）维护的第一方作品主页 · 2026</p><nav aria-label="核验入口"><a href="https://github.com/ming8m/ming8m.github.io">主页源码</a><a href="/sitemap.xml">站点地图</a><a href="https://ming8m.github.io/agent-hub/ming.html">作者资料</a></nav></div></footer>
+</body>
+</html>
